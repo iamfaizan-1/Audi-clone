@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+.navbar{
+    display: flex;
+    height: 70px;
+    
+    
+    align-items: center;
+}
+ul>li{
+    display: inline-block;
+
+margin-right: 20px;
+}
+
+
+.icon{
+width: 80px;
+height: 40px;
+display: flex;
+align-items: center;
+margin-left: 60px;
+ margin-right: 20px;
+}
+
+.img{
+    background-image: url(./assets/download.png);
+    width: 70px;
+    height: 25px;
+    background-size: cover;
+   
+}
+
+.icon2{
+  margin-left: 30px;
+  font-size: 20px;
+}
+.list{
+    width: 80%;
+    color: #666666;
+    font-size: 16px;
+    
+}
