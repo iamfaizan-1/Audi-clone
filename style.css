@@ -214,7 +214,7 @@ align-items: center;
 
 /* footer */
 
-.footer{
+/* .footer{
     display: flex;
  
     padding: 70px 70px 10px 40px ;
@@ -239,10 +239,37 @@ margin-top: 25px;
 flex-basis: 33%;
 height: 140px;
 
+} */
+
+.footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white ;
+    height: 320px;
+    padding: 40px 40px 150px ;
+     border-bottom: 1px solid rgb(85, 83, 83)
+}
+.firstdiv,.seconddiv,.thirddiv,.fdiv{
+    display: flex;
+    flex-direction: column;
+}
+.footer li{
+    padding: 5px 0px ;
+color: white;
+}
+.footer ul{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
+
+
+
+
 .footer h2{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .footer2{
@@ -253,6 +280,9 @@ height: 140px;
 }
 .footer2 p{
     margin: 0px
+}
+.f:hover{
+    text-decoration: underline;
 }
 
 
@@ -353,6 +383,12 @@ height: 140px;
         grid-template-columns: 1fr;
        
     }
+    .icon{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
 
      .cards-2{
         display: grid;
@@ -380,3 +416,26 @@ height: 140px;
     height: 500px;
 }
 }
+
+@media (min-width:600px) and (max-width:768px) {
+    .footer{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media (min-width:200px) and (max-width:600px) {
+    .footer{
+        grid-template-columns: 1fr;
+        height: 650px;
+    }
+
+    .firstdiv,.seconddiv,.thirddiv{
+   border-bottom: 1px solid rgb(85, 83, 83);
+
+}
+.seconddiv,.thirddiv,.fdiv{
+    margin-top: 20px;
+}
+    
+}
+
