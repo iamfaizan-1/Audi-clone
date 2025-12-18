@@ -23,17 +23,22 @@
  </div>
  <div class="list">
  <ul>
-        <li class="li" >All Models</li>
-        <li class="li">Service & Accessories</li>
-        <li class="li" >Brand experience</li>
-        <li class="li" >About us</li>
+        <li class="li" id="listItem1" >All Models</li>
+        <li class="li" id="listItem2">Service & Accessories</li>
+        <li class="li" id="listItem3">Brand experience</li>
+        <li class="li" id="listItem4">About us</li>
     </ul>
 </div>
 
-<div class="icon2">
-    <i  class="fa-solid fa-magnifying-glass i2 "></i>
-</div>
 
+     <div class="togglebtndiv" onclick="toggle()">
+        <img src= "./assets/light mode.png"  width="150px" id="toggle" alt="">
+        <button class="togglebtn" >dark mode</button>
+        <i  class="fa-solid fa-magnifying-glass i2 "></i>
+     </div>
+    
+
+<!-- <img src="./assets/pngtree-toggle-button-dark-mode-glyph-ui-icon-panel-simple-negative-space-vector-png-image_47716998.jpg" alt=""> -->
 
     </div>
     <!-- nav end -->
@@ -42,9 +47,9 @@
 
     <div class="hero">
         <img  class="img1" src="./assets/heroimg1.avif " alt="">
-        <h1 class="heading1" >Future is an attitude</h1>
-        <h3 class="heading2" >The new fully electric Audi e-tron GT. </h3>
-        <button class="b1" >Learn more</button>
+        <h1 class="heading1 " id="heading1" >Future is an attitude</h1>
+        <h3 class="heading2 " id="heading2">The new fully electric Audi e-tron GT. </h3>
+        <button class="b1 btn" >Learn more</button>
     </div>
 
     <!-- card section -->
@@ -54,9 +59,9 @@
             <img  class="card-img1" src="./assets/card1.webp" alt="">
         </div>
         <div class="card2">
-            <h1 class="card2-h1" >Audi RS e-tron GT</h1>
-            <p class="card2-p" >Passion creates progress. </p>
-            <button class="b2" >Learn more</button>
+            <h1 class="card2-h1 head" id="heading3">Audi RS e-tron GT</h1>
+            <p class="card2-p" id="para">Passion creates progress. </p>
+            <button class="b2 btn" >Learn more</button>
         </div>
     </div>
    
@@ -91,16 +96,16 @@
 
     <!-- footer -->
 
-    <div class="footer">
+    <div class="footer" id = "foot" >
         <div class="firstdiv f">
-            <h2>All Models</h2>
+            <h2 class="head" id="heading">All Models</h2>
             <ul>
                 <li>All models</li>
             </ul>
         </div>
 
 <div class="seconddiv f">
-    <h2>Service and Accessories</h2>
+    <h2 class="head" id="heading">Service and Accessories</h2>
     <ul>
         <li>Repair and Service</li>
         <li>Audi Genuine Accessories</li>
@@ -108,7 +113,7 @@
 </div>
 
 <div class="thirddiv f ">
-    <h2>
+    <h2 class="head" id="heading">
         Brand experience
     </h2>
     <ul>
@@ -119,7 +124,7 @@
 </div>
 
 <div class="fdiv f ">
-    <h2>About Us</h2>
+    <h2 class="head" id="heading">About Us</h2>
     <ul>
         <li>Importer</li>
         <li>Dealerships in Pakistan</li>
@@ -128,8 +133,11 @@
 </div>
     </div>
 
-    <div class="footer2">
+    <div class="footer2" id = "foot2">
         <p>2024 AUDI PK. All rights reserved</p>
     </div>
+
+
+    <script src="app.js" ></script>
 </body>
 </html>

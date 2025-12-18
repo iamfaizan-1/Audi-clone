@@ -10,7 +10,6 @@
 
 
 
-
 .navbar{
    
     display: flex;
@@ -49,15 +48,36 @@ align-items: center;
    
 }
 
+
 .icon2{
   /* margin-left: 30px; */
   font-size: 20px;
   margin-left: auto;
 
+  display: flex ;
   
+  align-items: center;
 }
 .i2{
  float: right;
+}
+
+.togglebtndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+.togglebtn{
+    margin: 10px;
+     padding: 10px 20px;
+    background-color: black;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: white;
+    border-radius: 30px;
+
 }
 
 .list{
@@ -140,7 +160,10 @@ gap: 40px;
 
 }
 
-.card2 h1,p,button{
+.card2 h1,p{
+    margin: 20px;
+}
+.btn{
     margin: 20px;
 }
 
