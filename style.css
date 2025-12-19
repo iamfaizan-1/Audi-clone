@@ -37,16 +37,18 @@ align-items: center;
 }
 
 
-
+/* 
 .img{
-    background-image: url(./assets/download.png);
-    width: 70px;
-    height: 25px;
+    background-image: url(./assets/audi_logo-300x300.webp);
+    width: 120px;
+    height: 60px;
     background-size: cover;
-    object-fit: contain;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
 
    
-}
+} */
 
 
 .icon2{
@@ -77,6 +79,7 @@ align-items: center;
     font-weight: 600;
     color: white;
     border-radius: 30px;
+    width: 150px;
 
 }
 
@@ -311,17 +314,26 @@ color: white;
 
 
 
-@media (max-width:1023px)  {
-    .navbar {
+@media (max-width:1150px)  {
+    /* .navbar {
         
         margin: 0px auto;
-    }
+    } */
     .li{
         display: none;
     }
     .card-section1{
         display: grid;
         grid-template-columns: 1fr;
+    }
+      
+    .icon{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #toggle{
+        display: none;
     }
     
 }
@@ -406,11 +418,7 @@ color: white;
         grid-template-columns: 1fr;
        
     }
-    .icon{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+    
     
 
      .cards-2{
@@ -461,4 +469,5 @@ color: white;
 }
     
 }
+
 
