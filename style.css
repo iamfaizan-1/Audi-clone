@@ -8,6 +8,19 @@
   
   }
 
+:root{
+    --backgroundColor:White;
+    --textColor:Black;
+    --text-secondary:#333333;
+    --listColor:#666666;
+}
+
+  body{
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+     transition: background-color 0.5s ease, color 0.5s ease;
+  }
+
 
 
 .navbar{
@@ -37,18 +50,6 @@ align-items: center;
 }
 
 
-/* 
-.img{
-    background-image: url(./assets/audi_logo-300x300.webp);
-    width: 120px;
-    height: 60px;
-    background-size: cover;
-    object-fit: cover;
-    display: flex;
-    align-items: center;
-
-   
-} */
 
 
 .icon2{
@@ -89,6 +90,10 @@ align-items: center;
     font-size: 16px;
     justify-self: start;
     
+    
+}
+.li{
+    transition: all 0.5s ease;
 }
 
 .li:hover{
@@ -133,6 +138,7 @@ align-items: center;
     border: none;
     letter-spacing: 1px;
     font-weight: 600;
+    transition:all 0.5s ease;
 }
 
 .b1:hover{
@@ -187,6 +193,7 @@ gap: 40px;
     font-weight: 600;
     color: white;
       padding: 20px 30px;
+      transition: all 0.3s ease;
 }
 .b2:hover{
     background-color: grey;
